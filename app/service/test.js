@@ -2,6 +2,8 @@
 
 module.exports = app => { 
   return class webhookService extends app.Service { 
-    async index() { }
+    async index() { 
+      console.log('???')
+    }
   }
 }
