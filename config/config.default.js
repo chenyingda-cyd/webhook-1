@@ -72,8 +72,8 @@ module.exports = appInfo => {
   };
 
   config.sina = {
-    appKey: '282702509',
-    appSecret: '46a2eeaf8fcdd78d14f2e26f8864f274',
+    appKey: '2273759700',
+    appSecret: 'd0d6401afee035e8c5feed5d793ce4d5',
     default_uid: '7278687107',
   };
 
