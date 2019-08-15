@@ -2,6 +2,6 @@ cd /home/sina/
 
 git pull origin sina
 
-yarn
+npm i
 
 pm2 start "npm run dev" --name=newwebhook
