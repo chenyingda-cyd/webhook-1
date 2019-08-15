@@ -31,7 +31,7 @@ function rumCommand(cmd, args, callback) {
   var response = ''
   child.stdout.on('data', function (buffer) {
     response += buffer.toString()
-    console.log('this is data', response);
+    console.log('this is data1', response);
   })
   child.stdout.on('end', function () {
     callback(response)
