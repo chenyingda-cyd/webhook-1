@@ -6,6 +6,6 @@ npm i
 
 pm2 del sina
 
-sdsd
+sdsdssss
 
 pm2 start "npm run dev" --name=sina
