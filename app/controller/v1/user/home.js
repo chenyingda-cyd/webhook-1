@@ -10,6 +10,7 @@ module.exports = app => {
       const { authorize_url, redirect_uri } = app.config.url;
       const { appKey } = app.config.sina;
       const url = authorize_url + `client_id=${appKey}&redirect_uri=${redirect_uri}`;
+      console.log('this is url', url);
       await ctx.redirect(url);
     }
 
